@@ -4,14 +4,21 @@
        url("./fonts/magic/Make-Magic-Happen-TTF.ttf") format("ttf");
   }
 
-
+@font-face{
+  font-family: "Chasing-Hearts";
+  src:url("./fonts/chasingHearts/Chasing-Hearts-OTF.otf"),
+  url("./fonts/chasingHearts/Chasing-Hearts-TTF.ttf") format("ttf");
+}
 
 
 h1{
   font-family: 'Make-Magic-Happen', Arial, sans-serif;
   color: lightpink;
 }
-
+h2{
+  font-family: 'Chasing-Hearts', Arial, sans-serif;
+  color: lightpink;
+}
 .App {
   text-align: center;
 }

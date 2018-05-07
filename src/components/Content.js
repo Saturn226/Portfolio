@@ -26,6 +26,8 @@ const Content = () =>{
 
 const StyledContent = styled.div`
   grid-area: content;
+  border: 5px solid lightpink;
+  background: white //TODO: Delete this later
 `
 
 export default Content
