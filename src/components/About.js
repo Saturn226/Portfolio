@@ -4,7 +4,7 @@ import styled from 'styled-components'
 const About = () =>{
     return (
     <StyledAbout>
-           <h1>About Me</h1>
+           <h1>[About Me]</h1>
            <p>I am a Full Stack Web Developer</p>         
     </StyledAbout>
     )

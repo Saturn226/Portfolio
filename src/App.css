@@ -1,3 +1,17 @@
+@font-face {
+  font-family: "Make-Magic-Happen";
+  src: url("./fonts/magic/Make-Magic-Happen-OTF.otf"),
+       url("./fonts/magic/Make-Magic-Happen-TTF.ttf") format("ttf");
+  }
+
+
+
+
+h1{
+  font-family: 'Make-Magic-Happen', Arial, sans-serif;
+  color: lightpink;
+}
+
 .App {
   text-align: center;
 }
