@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import SideBar from './SideBar'
 
 const MainGridComponent =  () => {
     return(
@@ -26,9 +27,6 @@ const MainGrid = styled.div`
         
 `
 
-const SideBar = styled.div`
-    grid-area: sidebar;
-`
 const Header = styled.div`
    grid-area: head;
 `
