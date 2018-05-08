@@ -28,9 +28,15 @@ const MainGrid = styled.div`
     display: grid;
     grid-template-columns: 1fr 3fr;
     grid-gap: 20px;
+    @media(max-width: 500px){grid-template-areas: "head"
+                            "sidebar"
+                            "content"
+                            "foot"}
+    @media(min-width: 500px){
     grid-template-areas:"head    head"
                         "sidebar content"
                         "sidebar foot"
+    }
     
         
 `
