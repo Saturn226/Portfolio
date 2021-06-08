@@ -1,16 +1,11 @@
-import React, { Component } from 'react';
-import './App.css';
-import MainGridComponent from './components/MainGridComponent.js'
+import React from 'react';
+import HeaderContainer from './containers/header';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-       <MainGridComponent/>
-      </div>
-    );
-  }
+export function App() {
+  return (
+    <div>
+      <HeaderContainer>This is my header</HeaderContainer>
+      <div className='App'>Hello World</div>
+    </div>
+  );
 }
-
-
-export default App;
