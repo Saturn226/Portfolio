@@ -1,11 +1,12 @@
 import React from 'react';
 import HeaderContainer from './containers/header';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 export function App() {
   return (
-    <div>
-      <HeaderContainer>This is my header</HeaderContainer>
+    <Router>
+      <HeaderContainer></HeaderContainer>
       <div className='App'>Hello World</div>
-    </div>
+    </Router>
   );
 }

@@ -5,6 +5,7 @@ import {
   ButtonLink,
   Link,
   Text,
+  Logo,
 } from './styles/header.js';
 import { Link as ReachRouterLink } from 'react-router-dom';
 
@@ -33,4 +34,8 @@ Header.ButtonLink = function HeaderButtonLink({ children, ...restProps }) {
 
 Header.Text = function HeaderText({ children, ...restProps }) {
   return <Text {...restProps}>{children}</Text>;
+};
+
+Header.Logo = function HeaderLogo({ ...restProps }) {
+  return <Logo {...restProps} />;
 };

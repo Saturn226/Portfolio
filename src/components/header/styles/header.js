@@ -8,24 +8,19 @@ export const Background = styled.div`
 `;
 
 export const Container = styled.div`
+  position: fixed;
   font-family: 'Jules-Regular';
 
   width: 1440px;
-  height: 139px;
+  height: 217px;
   left: 0px;
   top: 0px;
 
   background: #ffffff;
-  border: 1px solid #b9b9b9;
-
-  position: fixed;
+  border-bottom: 1px solid #b9b9b9;
 
   a {
     display: flex;
-  }
-
-  @media (max-width: 1000px) {
-    margin: 0 30px;
   }
 `;
 /* container */
@@ -60,20 +55,31 @@ export const Group = styled.div`
 `;
 
 export const ButtonLink = styled(ReachRouterLink)`
-  display: block;
-  background-color: #e50914;
-  width: 84px;
+  position: static;
+  padding: 18px 26px;
+
+  width: 88px;
   height: fit-content;
-  color: white;
-  border: 0;
-  font-size: 15px;
-  border-radius: 3px;
-  padding: 8px 17px;
-  cursor: pointer;
+  left: 0px;
+  top: -7px;
+  font-family: 'Metropolis-Light';
+  font-size: 10px;
+  color: black;
+  align-items: center;
+  align-content: center;
   text-decoration: none;
 
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 50px;
+
+  background: #ffffff;
+  border: 2px solid #eacebd;
+  box-sizing: border-box;
+
   &:hover {
-    background: #f40612;
+    background: #eacebd;
   }
 `;
 
@@ -85,12 +91,11 @@ export const Text = styled.p`
 `;
 
 export const Logo = styled.img`
-  height: 36px;
-  width: 134px;
-  margin-right: 40px;
-
-  @media (min-width: 1449px) {
-    height: 45px;
-    width: 167px;
-  }
+  position: absolute;
+  width: 175px;
+  height: 107px;
+  left: calc(50% - 176px / 2 + 10px);
+  top: calc(50% - 66px / 2 - 0.5px);
 `;
+
+export const Button = styled.button``;
