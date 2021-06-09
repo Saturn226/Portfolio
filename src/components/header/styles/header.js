@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components/macro';
 import { Link as ReachRouterLink } from 'react-router-dom';
 
 export const Background = styled.div`
@@ -10,6 +10,8 @@ export const Background = styled.div`
 export const Container = styled.div`
   position: fixed;
   font-family: 'Jules-Regular';
+  display: flex;
+  margin: 0px 56px;
 
   width: 1440px;
   height: 217px;
@@ -60,6 +62,7 @@ export const ButtonLink = styled(ReachRouterLink)`
 
   width: 88px;
   height: fit-content;
+  line-height: 10px
   left: 0px;
   top: -7px;
   font-family: 'Metropolis-Light';
@@ -99,3 +102,5 @@ export const Logo = styled.img`
 `;
 
 export const Button = styled.button``;
+
+export const Frame = styled.div``;

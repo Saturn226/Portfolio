@@ -5,10 +5,10 @@ import { App } from './App';
 import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render(
-  <div>
+  <>
     <GlobalStyles />
     <App />
-  </div>,
+  </>,
   document.getElementById('root')
 );
 registerServiceWorker();

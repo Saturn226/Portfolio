@@ -4,8 +4,10 @@ import logo from '../logo.svg';
 export default function HeaderContainer({ children }) {
   return (
     <Header>
-      <Header.Logo src={logo} alt='Ashley Muller' />
-      <Header.ButtonLink>About</Header.ButtonLink>
+      <Header.Frame>
+        <Header.Logo src={logo} alt='Ashley Muller' />
+        <Header.ButtonLink>About</Header.ButtonLink>
+      </Header.Frame>
       {children}
     </Header>
   );
