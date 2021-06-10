@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import {
   Container,
-  Background,
+  Nav,
   ButtonLink,
   Link,
   Text,
@@ -15,7 +15,7 @@ import { Link as ReachRouterLink } from 'react-router-dom';
 // }
 
 export default function Header({ children, ...restProps }) {
-  return <Container {...restProps}>{children}</Container>;
+  return <Nav {...restProps}>{children}</Nav>;
 }
 // Header.Container = function HeaderContainer({ children, ...restProps }) {
 //   return <Container {...restProps}>{children}</Container>;

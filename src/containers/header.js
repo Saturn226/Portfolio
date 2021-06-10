@@ -7,6 +7,7 @@ export default function HeaderContainer({ children }) {
       <Header.Frame>
         <Header.Logo src={logo} alt='Ashley Muller' />
         <Header.ButtonLink>About</Header.ButtonLink>
+        <Header.ButtonLink>Blog</Header.ButtonLink>
       </Header.Frame>
       {children}
     </Header>
