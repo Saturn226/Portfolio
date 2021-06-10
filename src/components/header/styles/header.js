@@ -13,7 +13,7 @@ export const Nav = styled.nav`
 
 export const Container = styled.div`
   display: inline-flex;
-  width: 100%;
+  width: 75%;
   height: 100%;
   align-items: center;
   justify-content: flex-end;
