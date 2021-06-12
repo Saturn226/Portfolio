@@ -6,7 +6,6 @@ import {
   Link,
   Text,
   Logo,
-  Frame,
 } from './styles/header.js';
 import { Link as ReachRouterLink } from 'react-router-dom';
 
@@ -21,7 +20,7 @@ export default function Header({ children, ...restProps }) {
 //   return <Container {...restProps}>{children}</Container>;
 // };
 
-Header.Frame = function HeaderFrame({ children, ...restProps }) {
+Header.Inner = function HeaderFrame({ children, ...restProps }) {
   return <Container {...restProps}>{children}</Container>;
 };
 
