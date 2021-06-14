@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import HeaderContainer from '../containers/header';
 import HeroContainer from '../containers/hero';
+import SectionContainer from '../containers/section';
 
 export default function Home() {
   const [posts, setPosts] = useState([]);
@@ -20,6 +21,9 @@ export default function Home() {
     <>
       <HeaderContainer></HeaderContainer>
       <HeroContainer posts={posts}>THIS IS THE HERO</HeroContainer>
+      <SectionContainer />
+
+      <p>Testing again</p>
     </>
   );
 }

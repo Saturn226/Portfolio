@@ -7,7 +7,7 @@ export const Background = styled.section`
   height: 500px;
   justify-content: flex-end;
   margin-top: 245px;
-  margin-bottom: 300px;
+  margin-bottom: 100px;
   background: url(${({ src }) =>
       src ? `../images/misc/${src}.jpg` : '../images/misc/code-background.jpg'})
     top left / cover no-repeat;

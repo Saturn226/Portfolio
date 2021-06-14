@@ -12,4 +12,11 @@ export const GlobalStyles = createGlobalStyle`
     background-color: white;
     color: #333333;
     font-size: 16px;
-}`;
+}
+
+h1{
+  font-family: Jules;
+  font-weight: 100;
+}
+
+`;
