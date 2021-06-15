@@ -5,7 +5,7 @@ export const Container = styled.section`
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 200px;
+  height: 250px;
   background-color: #f4f3ee;
   justify-content: center;
   align-items: center;
