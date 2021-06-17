@@ -14,6 +14,6 @@ export const Container = styled.section`
 
 export const Title = styled.h1`
   font-weight: 300;
-  font-size: 30px;
+  font-size: 35px;
   font-family: 'Jules';
 `;

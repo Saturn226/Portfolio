@@ -7,7 +7,9 @@ export function App() {
   return (
     <Router>
       <Switch>
-        <Home />
+        <Route exact path='/'>
+          <Home />
+        </Route>
       </Switch>
     </Router>
   );
