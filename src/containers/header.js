@@ -6,8 +6,8 @@ export default function HeaderContainer({ children }) {
     <Header>
       <Header.Inner>
         <Header.Logo src={logo} alt='Ashley Muller' />
-        <Header.ButtonLink>About</Header.ButtonLink>
-        <Header.ButtonLink>Blog</Header.ButtonLink>
+        <Header.ButtonLink to='/about'>About</Header.ButtonLink>
+        <Header.ButtonLink to='blog'>Blog</Header.ButtonLink>
       </Header.Inner>
       {children}
     </Header>

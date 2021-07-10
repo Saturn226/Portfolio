@@ -1,7 +1,12 @@
 import React from 'react';
 import HeaderContainer from './containers/header';
-import { Home, About, Blog } from './pages';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { Home, About, Blog, Post } from './pages';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  useLocation,
+} from 'react-router-dom';
 import ScrollToTop from './helpers/scrollToTop';
 
 export function App() {
@@ -19,6 +24,10 @@ export function App() {
 
         <Route path='/blog'>
           <Blog />
+        </Route>
+
+        <Route path='/posts/:slug'>
+          <Post />
         </Route>
       </Switch>
     </Router>
