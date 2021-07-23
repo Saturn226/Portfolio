@@ -5,6 +5,7 @@ import { useLocation } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
 import { gfm } from 'remark-gfm';
 import { frontmatter } from 'remark-frontmatter';
+import { default as PostComponent } from '../components/post';
 
 export default function Post(props) {
   const slug = useLocation().pathname.split('/').pop();
@@ -23,11 +24,7 @@ export default function Post(props) {
   return (
     <>
       <HeaderContainer></HeaderContainer>
-      <Section style={{ 'margin-top': 250, height: '100%' }}>
-        <Section.Title>Posts</Section.Title>
-        <Section.Title>{post.title}</Section.Title>
-        <p dangerouslySetInnerHTML={{ __html: post.body_html }}></p>
-      </Section>
+      <PostComponent post={post}></PostComponent>
     </>
   );
 }

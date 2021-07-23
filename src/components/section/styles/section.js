@@ -1,5 +1,4 @@
 import styled from 'styled-components/macro';
-import React from 'react';
 
 export const Container = styled.section`
   display: flex;
@@ -16,4 +15,11 @@ export const Title = styled.h1`
   font-weight: 300;
   font-size: 35px;
   font-family: 'Jules';
+`;
+
+export const Text = styled.p`
+  font-family: 'Metropolis-Light';
+  font-size: 13px;
+  height: 31px;
+  font-color: blue;
 `;
