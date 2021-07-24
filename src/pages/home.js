@@ -21,7 +21,7 @@ export default function Home() {
   return (
     <>
       <HeaderContainer></HeaderContainer>
-      <HeroContainer posts={posts}>THIS IS THE HERO</HeroContainer>
+      <HeroContainer posts={posts}></HeroContainer>
       <SectionContainer />
       <ProjectsContainer />
     </>

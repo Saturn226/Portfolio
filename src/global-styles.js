@@ -5,13 +5,21 @@ export const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
   }
   html, body {
-    height: 100%;
     font-family: 'Metropolis-Light, Helvetica, Arial, sans-serif';
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     background-color: white;
     color: #333333;
     font-size: 16px;
+    overflow: auto;
+}
+
+html{
+  height: 100%;
+}
+
+body{
+  min-height: 100%;
 }
 
 h1{
