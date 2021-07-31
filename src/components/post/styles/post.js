@@ -2,8 +2,9 @@ import styled from 'styled-components/macro';
 import { Section as StyledSection } from '../../../components';
 
 export const Section = styled(StyledSection)`
+  margin: auto;
+  width: 50%;
   background: none;
-  padding: 200px;
   padding-top: 0px;
 `;
 export const Title = styled(StyledSection.Title)`
@@ -12,6 +13,7 @@ export const Title = styled(StyledSection.Title)`
 `;
 export const Text = styled(StyledSection.Text)`
   line-height: 31px;
+  text-align: center;
 `;
 
 export const Date = styled.h3`

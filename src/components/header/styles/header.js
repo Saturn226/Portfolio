@@ -78,6 +78,5 @@ export const Text = styled.p`
 export const Logo = styled.img`
   width: 175px;
   height: 107px;
-  margin-left: 45%;
-  margin-right: auto;
+  margin-left: 55%;
 `;

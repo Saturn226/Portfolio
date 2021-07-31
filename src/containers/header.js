@@ -5,10 +5,14 @@ export default function HeaderContainer({ children }) {
   return (
     <Header>
       <Header.Inner>
-        <Header.Logo src={logo} alt='Ashley Muller' />
+        <a href='/' style={{ margin: 'auto', width: '50%' }}>
+          <Header.Logo src={logo} alt='Ashley Muller' />
+        </a>
         <Header.ButtonLink to='/about'>About</Header.ButtonLink>
-        <Header.ButtonLink to='blog'>Blog</Header.ButtonLink>
+        <Header.ButtonLink to='/blog'>Blog</Header.ButtonLink>
       </Header.Inner>
+      <div>WE ARE UNDER CONSTRUCTION PARDON THE MESS</div>
+
       {children}
     </Header>
   );

@@ -10,7 +10,7 @@ export default function Home() {
   useEffect(() => {
     async function GetAllPosts() {
       const response = await fetch(
-        'https://dev.to/api/articles?username=yechielk'
+        'https://dev.to/api/articles?username=saturn226'
       );
       setPosts(await response.json());
     }

@@ -1,5 +1,6 @@
 import styled from 'styled-components/macro';
 import { Projects as StyledProjects } from '../../';
+import { Link as ReactRouterLink } from 'react-router-dom';
 
 export const Projects = styled(StyledProjects)``;
 
@@ -63,7 +64,7 @@ export const Text = styled.p`
   font-family: 'Metropolis-Light';
 `;
 
-export const Link = styled.a`
+export const Link = styled(ReactRouterLink)`
   display: block;
   font-family: 'Metropolis-Light';
   font-size: 10;
