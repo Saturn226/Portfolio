@@ -9,7 +9,7 @@ import { default as PostComponent } from '../components/post';
 
 export default function Post(props) {
   const slug = useLocation().pathname.split('/').pop();
-  const url = `https://dev.to/api/articles/yechielk/${slug}`;
+  const url = `https://dev.to/api/articles/saturn226/${slug}`;
   const [post, setPost] = useState([]);
 
   useEffect(() => {
