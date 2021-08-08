@@ -1,6 +1,6 @@
 import { Header } from '../components';
 import React from 'react';
-import logo from '../logo.svg';
+const logo = '/images/logo.svg'
 export default function HeaderContainer({ children }) {
   return (
     <Header>
